@@ -32,7 +32,7 @@ You have to be on the branch you want to merge the updated branch into
 
 git checkout master
 
-git merge {{ branch name }}
+git merge {{ branch name }} _merge a branch with the branch you're on_
 
 notice the two different merge updates:
 
