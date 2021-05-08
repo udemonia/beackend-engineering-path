@@ -27,3 +27,9 @@ git branch -d {{ branch name }} _remove a MERGED branch_
 git branch -D {{ branch name }} _remove a un-merged branch_
 
 ## merging branches
+
+You have to be on the branch you want to merge the updated branch into
+
+git checkout master
+
+git merge {{ branch name }}
