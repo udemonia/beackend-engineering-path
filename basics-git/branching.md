@@ -16,6 +16,8 @@ If you're on the master branch, you might want to make changes to a clone, prese
 
 git branch {{ name }} _create a branch_
 
+git checkout -b {{ new branch name }} _create and checkout a new branch_
+
 git branch -a _see all open branches the * means you're on the branch_
 
 git checkout {{ branch name }} _switch to a branch_
@@ -23,3 +25,5 @@ git checkout {{ branch name }} _switch to a branch_
 git branch -d {{ branch name }} _remove a MERGED branch_
 
 git branch -D {{ branch name }} _remove a un-merged branch_
+
+## merging branches
